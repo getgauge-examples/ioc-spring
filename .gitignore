@@ -1,0 +1,9 @@
+*.class
+reports/
+gauge_bin/
+logs/
+.idea/*
+out
+*.iml
+.gauge/
+target/
