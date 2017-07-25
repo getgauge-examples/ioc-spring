@@ -3,9 +3,9 @@ import com.thoughtworks.gauge.Step;
 import static junit.framework.TestCase.assertEquals;
 
 public class PaymentService {
-    private final DebitCardProcessor processor;
+    private DebitCardProcessor processor;
 
-    PaymentService(DebitCardProcessor processor) {
+    public PaymentService(DebitCardProcessor processor) {
         this.processor = processor;
     }
 

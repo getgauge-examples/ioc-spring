@@ -6,11 +6,18 @@
     <artifactId>gaugeWithSpring</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>bintray-repo-maven-example</id>
+            <url>https://dl.bintray.com/gauge/maven-gauge-java</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.thoughtworks.gauge</groupId>
             <artifactId>gauge-java</artifactId>
-            <version>0.3.4</version>
+            <version>0.6.5.nightly-2017-07-18</version>
             <scope>test</scope>
         </dependency>
         <dependency>
