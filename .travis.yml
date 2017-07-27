@@ -1,0 +1,22 @@
+os:
+  - osx
+
+language: java
+
+before_install:
+  - brew update
+  
+install:
+  - brew cask install google-chrome
+  - brew install chromedriver
+  - brew install gauge
+  - gauge --install java
+  - gauge --install html-report
+
+cache:
+  directories:
+  - $HOME/.m2
+
+script:
+  - mvn clean
+  - mvn test
