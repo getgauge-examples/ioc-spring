@@ -1,6 +1,6 @@
 ## Gauge with Spring
 
-[![Build Status](https://travis-ci.org/getgauge-examples/gauge-example-spring.svg?branch=master)](https://travis-ci.org/getgauge-examples/gauge-example-spring)
+[![Build Status](https://travis-ci.org/getgauge-examples/ioc-spring.svg?branch=master)](https://travis-ci.org/getgauge-examples/ioc-spring)
 
 This is a sample Gauge project demonstrating the use of Spring IOC framework with [Gauge](http://getgauge.io).
 
