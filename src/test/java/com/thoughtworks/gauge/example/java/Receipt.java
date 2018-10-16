@@ -1,3 +1,5 @@
+package com.thoughtworks.gauge.example.java;
+
 public class Receipt {
 
     private String message;
