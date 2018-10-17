@@ -1,3 +1,8 @@
+package com.thoughtworks.gauge.example.java;
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class PaypalDebitCardProcessor implements DebitCardProcessor {
 
     @Override

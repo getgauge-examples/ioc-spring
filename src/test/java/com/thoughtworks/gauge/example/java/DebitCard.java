@@ -1,6 +1,10 @@
+package com.thoughtworks.gauge.example.java;
+
 import com.thoughtworks.gauge.Step;
 import org.junit.Assert;
+import org.springframework.stereotype.Component;
 
+@Component
 public class DebitCard {
 
     static final int MAX_AMOUNT = 10000;

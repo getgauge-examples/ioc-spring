@@ -1,7 +1,11 @@
+package com.thoughtworks.gauge.example.java;
+
 import com.thoughtworks.gauge.Step;
+import org.springframework.stereotype.Component;
 
 import static junit.framework.TestCase.assertEquals;
 
+@Component
 public class PaymentService {
     private DebitCardProcessor processor;
 
